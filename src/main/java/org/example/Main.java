@@ -1,10 +1,13 @@
 package org.example;
 
+import java.math.BigInteger;
 import java.util.Arrays;
 import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
+
+   public static Scanner scan = new Scanner(System.in);
     public static void main(String[] args) {
 
 //
@@ -104,7 +107,7 @@ public class Main {
 //            }
 ////
 //        }
-        Scanner scan = new Scanner(System.in);
+
 //        for (int i = 0; i < 5; i++) {
 //
 //
@@ -131,9 +134,8 @@ public class Main {
 //        for (int i = 0; i < arr.length; i++) {
 //            arr[i] = 100 + i + 1;
 //        }
-//        for (int i = 0; i < arr.length; i++) {
-//            System.out.print(arr[i] + " ");
-//        }
+//            System.out.print(Arrays.toString(arr));
+//
 
 //        int[] arr = new int[10];
 //
@@ -265,10 +267,38 @@ public class Main {
 //            }
 //        }
 
- Palindrom palindrom = new Palindrom();
+// Palindrom palindrom = new Palindrom();
 
-    palindrom.printMessage();
+//    palindrom.printMessage();
+
+//        printNumber();
+//        sumNumber();
+//        factorial();
+
+
     }
+//    public static void printNumber(){
+//        for (int i = 1; i <= 10 ; i++) {
+//            System.out.print(i + " ");
+//        }
+//    }
+// public static void sumNumber(){
+//        int result = 0;
+//     for (int i = 1; i <= 100 ; i++) {
+//         result += i;
+//     }
+//     System.out.println(result);
+// }
+
+//    public static void factorial(){
+//        long number = scan.nextLong();
+//        long factorial = 1;
+//
+//        for (int i = 1 ; i <= number ; i++) {
+//            factorial *= i;
+//        }
+//        System.out.println(factorial);
+//    }
 }
 
 
