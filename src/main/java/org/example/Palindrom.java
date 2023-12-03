@@ -4,17 +4,14 @@ import java.util.Scanner;
 
 public class Palindrom {
     public static int num;
-    public static int writeNumbers(){
+    public static void writeNumbers() {
         var scan = new Scanner(System.in);
-
         System.out.print("Впишите своё число: ");
-         num = scan.nextInt();
-        return num;
+        num = scan.nextInt();
     }
     public static void printMessage(){
         System.out.println("Вас приведствует программа для проверки является ли число палиндромом!");
         writeNumbers();
-        isPalindrom(num);
 
         if (isPalindrom(num))
             System.out.println(num + " - Является таковым числом");
@@ -30,12 +27,8 @@ public class Palindrom {
         while ( x > 0){
             module = x % 10;
             renumber = renumber * 10 + module;
-
             x /= 10;
         }
-        if (number == renumber)
-            return true;
-        else
-            return false;
+        return number == renumber;
     }
 }

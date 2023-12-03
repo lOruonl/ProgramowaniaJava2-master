@@ -265,9 +265,7 @@ public class Main {
 //            }
 //        }
 
-// Palindrom palindrom = new Palindrom();
-
-//    palindrom.printMessage();
+//        Palindrom.printMessage();
 
 //        printNumber();
 //        sumNumber();
@@ -295,7 +293,7 @@ public class Main {
 //        }
 //        System.out.println(factorial);
 //    }
-    Tablica.tablicaMnozenia();
+//    Tablica.tablicaMnozenia();
     }
 }
 
