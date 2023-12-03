@@ -1,12 +1,10 @@
 package org.example;
 
-import java.math.BigInteger;
 import java.util.Arrays;
 import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
-
    public static Scanner scan = new Scanner(System.in);
     public static void main(String[] args) {
 
@@ -275,8 +273,6 @@ public class Main {
 //        sumNumber();
 //        factorial();
 
-
-    }
 //    public static void printNumber(){
 //        for (int i = 1; i <= 10 ; i++) {
 //            System.out.print(i + " ");
@@ -299,6 +295,8 @@ public class Main {
 //        }
 //        System.out.println(factorial);
 //    }
+    Tablica.tablicaMnozenia();
+    }
 }
 
 
