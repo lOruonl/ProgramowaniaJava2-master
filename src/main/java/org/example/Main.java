@@ -293,7 +293,7 @@ public class Main {
 //        }
 //        System.out.println(factorial);
 //    }
-//    Tablica.tablicaMnozenia();
+    Tablica.tablicaMnozenia();
     }
 }
 

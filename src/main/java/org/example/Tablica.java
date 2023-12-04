@@ -22,9 +22,10 @@ public class Tablica {
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
                 tablica.add(tab.get(i)*tab.get(j));
+                System.out.print(tablica.get(tablica.size()-1) + " ");
             }
-            System.out.println(tablica);
-            tablica.clear();
+            System.out.println();
+//            tablica.clear();
         }
     }
 }
